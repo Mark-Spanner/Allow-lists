@@ -1,7 +1,6 @@
 !
-! Title: M365 allow list
-! Description: 	Domains needed to allow access to Microsoft M365 services. Useful in a corporate environment.
-! Last modified: 2026-10-01T08:29:17.792Z
+! Title: Blocklist
+! Last modified: 2026-11-09T09:00:59.595Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -12,8 +11,6 @@
 ||streaming.mediaservices.windows.net^
 ||aka.ms^
 ||adl.windows.com^
-||join.secure.skypeassets.com^
-||mlccdnprod.azureedge.net^
 ||sharepoint.com^
 ||storage.live.com^
 ||wns.windows.com^
@@ -33,7 +30,6 @@
 ||apis.live.net^
 ||www.onedrive.com^
 ||msftidentity.com^
-||msidentity.com^
 ||account.activedirectory.windowsazure.com^
 ||accounts.accesscontrol.windows.net^
 ||autologon.microsoftazuread-sso.com^
@@ -53,7 +49,6 @@
 ||portal.cloudappsecurity.com^
 ||o365weve.com^
 ||amp.azure.net^
-||assets.onestore.ms^
 ||auth.gfx.ms^
 ||platform.linkedin.com^
 ||office365.com^
@@ -105,10 +100,8 @@
 ||crl.identrust.com^
 ||crl3.digicert.com^
 ||crl4.digicert.com^
-||isrg.trustid.ocsp.identrust.com^
 ||ocsp.digicert.com^
 ||ocsp.globalsign.com^
-||ocsp.msocsp.com^
 ||ocsp2.globalsign.com^
 ||ocspx.digicert.com^
 ||secure.globalsign.com^
